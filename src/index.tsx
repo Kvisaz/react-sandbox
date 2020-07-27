@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './components/app/App';
+import { TodoApp } from './components/todo/TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
