@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import App from './components/app/App';
-import { TodoApp } from './components/todo/TodoApp';
+import { RouterApp } from './route/RouteApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <TodoApp />
+    <RouterApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
